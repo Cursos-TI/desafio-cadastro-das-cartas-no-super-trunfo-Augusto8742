@@ -9,6 +9,8 @@ int main() {
     float area1 = 5760.784;
     float pib1 = 286.94;
     int pontos1 = 32;
+    float densidade1 = 489.06;
+    float pibpercapita1 = 116713.39;
 
     // Variáveis para armazenar as informações da Carta 2
     char estado2 = 'B';
@@ -18,6 +20,8 @@ int main() {
     float area2 = 586528.0;
     float pib2 = 857.593; // PIB em bilhões
     int pontos2 = 45;
+    float densidade2 = 35.02;
+    float pibpercapita2 = 41818.32;
 
     // Exibição dos dados da Carta 1
     printf("Carta 1:\n");
@@ -28,6 +32,8 @@ int main() {
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos1);
+    printf("Densidade Demográfica: %d\n", densidade1);
+    printf("pib per capita: %d\n", pibpercapita1);
 
     // Exibição dos dados da Carta 2
     printf("\nCarta 2:\n");
@@ -38,6 +44,9 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.3f bilhões de reais\n", pib2);  // Ajustei para mostrar três casas decimais, pois o PIB de Minas Gerais foi dado em milhões
     printf("Número de Pontos Turísticos: %d\n", pontos2);
+    printf("Densidade Demográfica: %d\n", densidade2);
+    printf("pib per capita: %d\n", pibpercapita2);
+
 
     return 0;
 }
