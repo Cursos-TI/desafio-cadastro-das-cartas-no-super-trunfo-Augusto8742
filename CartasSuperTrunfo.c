@@ -32,7 +32,7 @@ int main() {
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos1);
-    printf("Densidade Demográfica: %d\n", densidade1);
+    printf("Densidade Demográfica: %.2f habitantes por km²\n", densidade1);
     printf("pib per capita: %d\n", pibpercapita1);
 
     // Exibição dos dados da Carta 2
@@ -44,7 +44,7 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.3f bilhões de reais\n", pib2);  // Ajustei para mostrar três casas decimais, pois o PIB de Minas Gerais foi dado em milhões
     printf("Número de Pontos Turísticos: %d\n", pontos2);
-    printf("Densidade Demográfica: %d\n", densidade2);
+    printf("Densidade Demográfica: %.2f habitantes por km²\n", densidade2);
     printf("pib per capita: %d\n", pibpercapita2);
 
 
